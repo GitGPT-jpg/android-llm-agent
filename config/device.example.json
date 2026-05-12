@@ -1,0 +1,10 @@
+{
+  "_comment": "Device coordinate template. Copy to config/device.json and calibrate for your screen resolution.",
+  "_resolution": "1080x2340 (adjust all values for your device)",
+
+  "chat_crop": [10, 1050, 1075, 2000],
+  "input_box_tap": [453, 2237],
+  "send_via_enter": false,
+  "send_btn_tap": [955, 2210],
+  "right_bubble_threshold": 0.55
+}

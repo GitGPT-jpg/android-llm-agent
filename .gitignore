@@ -1,0 +1,50 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.cache/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Environment & Secrets ─────────────────────────────────────────────────────
+.env
+*.key
+*.pem
+
+# ── Device-specific config (contains personal screen coordinates) ─────────────
+config/device.json
+
+# ── Personal persona files ────────────────────────────────────────────────────
+persona/persona.txt
+persona/style.txt
+
+# ── Runtime artifacts ─────────────────────────────────────────────────────────
+tmp/
+*.png
+*.jpg
+*.jpeg
+
+# ── ADB tools (downloaded by setup.ps1) ──────────────────────────────────────
+tools/
+
+# ── IDE / OS ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+

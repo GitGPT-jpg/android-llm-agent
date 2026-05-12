@@ -1,0 +1,12 @@
+services:
+  agent:
+    build: .
+    env_file: .env
+    # ADB over TCP: connect your device with `adb connect <device-ip>:5555`
+    # and set ANDROID_ADB_SERVER_ADDRESS + ANDROID_SERIAL in .env
+    network_mode: host
+    volumes:
+      - ./config:/app/config:ro
+      - ./persona:/app/persona:ro
+      - ./tmp:/app/tmp
+    restart: unless-stopped
