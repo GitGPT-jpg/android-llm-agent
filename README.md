@@ -1,3 +1,7 @@
+<div align="right">
+  <a href="README.md"><b>English</b></a> | <a href="README_CN.md">中文</a>
+</div>
+
 # Android LLM Agent
 
 > An ADB-powered, vision-language pipeline that reads a live Android screen via OCR and replies to chat messages using multi-provider LLMs — with a configurable persona, dynamic conversation strategy, and a 3-dimensional state machine (emotion × intent × risk).
